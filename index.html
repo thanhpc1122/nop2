@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Quốc Khánh 2/9 - Niềm Tự Hào Dân Tộc</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* Reset & Core */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Segoe UI', sans-serif; background: #fff; color: #333; display: flex; flex-direction: column; min-height: 100vh; }
+
+    /* Header */
+    header {
+      background: linear-gradient(90deg, #b30000, #ff0000);
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 { font-size: 2.8em; text-transform: uppercase; }
+    header p { margin-top: 10px; font-size: 1.2em; }
+
+    /* Main Content */
+    main { flex: 1; max-width: 1000px; width: 100%; margin: 30px auto; padding: 0 20px; }
+    .intro { font-size: 1.2em; line-height: 1.8; margin-bottom: 30px; }
+    .quote {
+      background: #fff3f3;
+      border-left: 6px solid #b30000;
+      padding: 20px;
+      font-style: italic;
+      margin-bottom: 30px;
+    }
+    .quote span {
+      display: block;
+      text-align: right;
+      margin-top: 10px;
+      font-weight: bold;
+      font-style: normal;
+    }
+
+    /* Image Gallery */
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-bottom: 40px;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .gallery figcaption {
+      text-align: center;
+      margin-top: 8px;
+      font-size: 0.9em;
+      color: #555;
+    }
+
+    /* Sticky Footer */
+    footer {
+      background: linear-gradient(90deg, #ffeb3b, #ffc107);
+      padding: 20px;
+      text-align: center;
+      font-size: 0.9em;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    footer .social-icons {
+      margin: 10px 0;
+    }
+    footer .social-icons a {
+      margin: 0 8px;
+      text-decoration: none;
+      font-size: 1.2em;
+      color: #b30000;
+      transition: transform 0.2s;
+    }
+    footer .social-icons a:hover {
+      transform: scale(1.1);
+    }
+    footer p { margin-top: 8px; color: #333; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Ngày Quốc Khánh 2/9</h1>
+    <p>Niềm Tự Hào Của Dân Tộc Việt Nam</p>
+  </header>
+
+  <main>
+    <div class="intro">
+      <p>Ngày <strong>2 tháng 9 năm 1945</strong> là mốc son chói lọi khi Chủ tịch Hồ Chí Minh đọc <strong>Tuyên ngôn Độc lập</strong>, khai sinh nước Việt Nam Dân chủ Cộng hòa – tiền thân của Cộng hòa xã hội chủ nghĩa Việt Nam.</p>
+      <p>Đây là ngày dân tộc khẳng định quyền độc lập, quyền tự do và quyền mưu cầu hạnh phúc sau bao năm đấu tranh kiên cường chống ngoại xâm.</p>
+    </div>
+
+    <div class="quote">
+      “Tất cả mọi người sinh ra đều có quyền bình đẳng. Tạo hóa cho họ những quyền không ai có thể xâm phạm được; trong những quyền ấy, có quyền được sống, quyền tự do và quyền mưu cầu hạnh phúc.”
+      <span>— Trích Tuyên ngôn Độc lập (2/9/1945)</span>
+    </div>
+
+    <!-- Hình ảnh minh họa -->
+    <figure class="gallery">
+      <figure>
+        <img src="https://file3.qdnd.vn/data/images/0/2022/09/01/tvkimgiang/bac%20ho%20doc%20tuyen%20ngon.jpg?dpi=150&quality=100&w=870">
+        <figcaption>Chủ tịch Hồ Chí Minh đọc Tuyên ngôn Độc lập</figcaption>
+      </figure>
+      <figure>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Ba_Dinh_Square_September_2nd%2C_1945.jpg/960px-Ba_Dinh_Square_September_2nd%2C_1945.jpg" alt="Chủ tịch Hồ Chí Minh đọc Tuyên ngôn Độc lập" alt="Quảng trường Ba Đình, Hà Nội">
+        <figcaption>Quảng trường Ba Đình, Hà Nội</figcaption>
+      </figure>
+      <figure>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Flag_of_Vietnam.svg" alt="Quốc kỳ Việt Nam">
+        <figcaption>Quốc kỳ Việt Nam</figcaption>
+      </figure>
+      <figure>
+        <img src="https://media.vietq.vn/files/nhung-hinh-anh-xuc-dong-trong-le-dieu-binh-mung-ngay-quoc-khanh-2-9-3.jpg" alt="Lễ duyệt binh mừng Quốc khánh">
+        <figcaption>Lễ duyệt binh mừng Quốc khánh</figcaption>
+      </figure>
+    </figure>
+  </main>
+
+  <footer>
+    <div class="social-icons">
+      <a href="#" title="Facebook">🔵</a>
+      <a href="#" title="Twitter">🐦</a>
+      <a href="#" title="Instagram">📸</a>
+    </div>
+    <p>Trang web được thực hiện bởi [Thuận-Ngà-Nữ-Tường Vy], phục vụ mục đích học tập - môn tin học 12 </p>
+  </footer>
+
+</body>
+</html>
